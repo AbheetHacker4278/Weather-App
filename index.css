@@ -93,6 +93,33 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+@media screen and (max-width: 400px) {
+    .card {
+        width: 100%;
+    }
+    .col{
+        display: block;
+    }
+    .col img{
+        margin-top: 20px;
+    }
+    .search button {
+        border: 0;
+        outline: 0;
+        background-color: #ebfffc;
+        height: 60px;
+        cursor: pointer;
+        display: inline-block;
+        position: absolute;
+        left:30px;
+    }
+    .search button:hover{
+        background-color: rgb(218, 254, 255);
+    }
+    .search input{
+        direction: rtl;
+    }
+}
 
 
 
